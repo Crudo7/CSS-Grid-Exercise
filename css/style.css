@@ -1,0 +1,73 @@
+
+.container{
+    display: grid;
+    background-color: rgb(195, 195, 195);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.one{
+    border: black 4px solid;
+    width: 340px;
+    height: 150px;
+    grid-column: span 1;
+    grid-row: span 1;
+    
+}
+
+.two{
+    border: black 4px solid;
+    width: 340px;
+    height: 150px;
+}
+.three{
+    border: black 4px solid;
+    width: 200px;
+    height: 100px;
+    
+}
+.four{
+    border: black 4px solid;
+    width: 200px;
+
+}
+.five{
+    border: black 4px solid;
+    width: 200px;
+}
+.six{
+    border: black 4px solid;
+    width: 200px;
+
+}
+
+.seven{
+    border: black 4px solid;
+    width: 200px;
+
+}
+
+.eight{
+    border: black 4px solid;
+    width: 200px;
+}
+
+.nine{
+    border: black 4px solid;
+    width: 200px;
+
+}
+
+.ten{
+    border: black 4px solid;
+    width: 200px;
+    height: 200px;
+
+}
+.eleven{
+    border: black 4px solid;
+    width: 200px;
+
+}
