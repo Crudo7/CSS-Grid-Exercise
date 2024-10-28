@@ -1,73 +1,108 @@
 
-.container{
+header{
     display: grid;
-    background-color: rgb(195, 195, 195);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 10px;
-
-}
-
-.one{
-    border: black 4px solid;
-    width: 340px;
-    height: 150px;
-    grid-column: span 1;
-    grid-row: span 1;
     
-}
-
-.two{
-    border: black 4px solid;
-    width: 340px;
-    height: 150px;
-}
-.three{
-    border: black 4px solid;
-    width: 200px;
-    height: 100px;
-    
-}
-.four{
-    border: black 4px solid;
-    width: 200px;
 
 }
-.five{
-    border: black 4px solid;
-    width: 200px;
+.headerLeftPic{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+   
 }
-.six{
-    border: black 4px solid;
-    width: 200px;
+.headerRightPic{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row: 1;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 }
 
-.seven{
-    border: black 4px solid;
-    width: 200px;
-
-}
-
-.eight{
-    border: black 4px solid;
-    width: 200px;
-}
-
-.nine{
-    border: black 4px solid;
-    width: 200px;
-
-}
-
-.ten{
-    border: black 4px solid;
-    width: 200px;
+.verAcolyte{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100px;
     height: 200px;
-
 }
-.eleven{
-    border: black 4px solid;
-    width: 200px;
 
+
+.verStormdragon{
+    display: grid;
+    grid-column: 5;
+    grid-row: 2;
+    width: 120px;
+    height: 200px;
+}
+
+.verDivine{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 240px;
+    height: 400px;
+}
+
+.verGodfist{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    width: 100px;
+    height: 200px;
+}
+
+.verChinese{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    width: 100px;
+    height: 200px;
+}
+
+.verVanilla{
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    width: 100px;
+    height: 200px;
+}
+
+
+.verNightBringer{
+    display: grid;
+    grid-column: 5;
+    grid-row: 1;
+    width: 100px;
+    height: 200px;
+}
+
+.traditional{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row 3;
+    width: 500px;
+    height: 250px;
+}
+
+
+.muayThai{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2px;
+    width: ;
+    height: px;
 }
